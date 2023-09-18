@@ -10,6 +10,7 @@ Estructura de carpetas:<br>
 Comercial Quimica <br>
 ├── EDA_proyecto_Comercial_Quimica.ipynb<br>
 ├── Primera Entrega Proyecto Comercial Química.pdf<br>
+└── Mockup DashBoard CQ.png<br>
 └── Archivos<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── base_ventas.xlsx (No incluido, Material Sensible,Disponible en el enlace adjunto) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── COMPRAS 2023 Dashboard.xlsm (No incluido, Material Sensible,Disponible en el enlace adjunto)<br>
@@ -17,6 +18,7 @@ Comercial Quimica <br>
 
 Los archivos con extension .pdf contienen la interpretacion del proyecto asi:
 - Primera Entrega Proyecto Comercial Química: Contiene el desarrollo del taller, como se indicó en bloque Neon, asi como la interpretación de datos de este Notebook.
+- El Mockup del dashboard a construir no se incluyo en el documento pero es la imagen Mockup DashBoard CQ.png para que la pueda detallar
 
 Para el Notebook EDA_proyecto_Comercial_Quimica.ipynb, este carga los 3 archivos de la carpeta Archivos, de los dos documentos tipo excel solo se cargan las hojas DATOS VENTAS de el archivo COMPRAS 2023 Dashboard.xlsm y base_ajustada de el archivo base_ventas.xlsx
 
