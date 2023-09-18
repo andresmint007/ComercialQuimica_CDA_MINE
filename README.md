@@ -18,9 +18,9 @@ Comercial Quimica <br>
 Los archivos con extension .pdf contienen la interpretacion del proyecto asi:
 - Primera Entrega Proyecto Comercial Química: Contiene el desarrollo del taller, como se indicó en bloque Neon, asi como la interpretación de datos de este Notebook.
 
-Para el Notebook EDA_proyecto_Comercial_Quimica.ipynb, este carga los 3 archivos de la carpeta Arhivos, de los dos documentos tipo excel solo se cargan las hojas DATOS VENTAS de el archivo COMPRAS 2023 Dashboard.xlsm y base_ajustada de el archivo base_ventas.xlsx
+Para el Notebook EDA_proyecto_Comercial_Quimica.ipynb, este carga los 3 archivos de la carpeta Archivos, de los dos documentos tipo excel solo se cargan las hojas DATOS VENTAS de el archivo COMPRAS 2023 Dashboard.xlsm y base_ajustada de el archivo base_ventas.xlsx
 
-El cuaderno contiene dos funciones dinamicas las cuales miden el comportamiento de los medicamentos en el tiempo, como su popularidad también, estos son: <br>
+El cuaderno contiene dos funciones dinámicas las cuales miden el comportamiento de los medicamentos en el tiempo, como su popularidad también, estos son: <br>
 
 _getSeriesByMaterial(material, anio_<br>
 _graphPareto (material,anio)_
@@ -29,6 +29,6 @@ Uso:La primera mira el comportamiento de ventas de un material según el año, y
 
 Los archivos se pueden descargar en: https://uniandes-my.sharepoint.com/:f:/g/personal/am_martinezc123_uniandes_edu_co/Eo7U36SUOxZKlAbPiBtc-gsB2CKVGKzjya6Y-U5CyyX_6g?e=Bzooiq
 
-__NOTA__: Solo el docente del curso tiene acceso a estos archvios, guardelos en la carpeta Archivos una vez clone o descargue el Repositorio.
+__NOTA__: Solo el docente del curso tiene acceso a estos archivos, guardelos en la carpeta Archivos una vez clone o descargue el Repositorio.
 
 Contacto: jv.chaparro@uniandes.edu.co, o.giraldor@uniandes.edu.co, da.alfonso2@uniandes.edu.co,am.martinezc123@unaindes.edu.co
