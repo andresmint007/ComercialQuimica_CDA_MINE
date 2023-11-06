@@ -33,4 +33,9 @@ Los archivos se pueden descargar en: https://uniandes-my.sharepoint.com/:f:/g/pe
 
 __NOTA__: Solo el docente del curso tiene acceso a estos archivos, guardelos en la carpeta Archivos una vez clone o descargue el Repositorio.
 
+# Segunda Entrega:
+Los archivos agregados en esta entrega se dividen en dos partes, el procesamiento y los entrenamientos del modelo, los cuadernos se listan a continuación:
+- Procesamiento.ipnyb: Este cuaderno tiene el procesamiento de los datos del archivo, es decir es la entrada de los archivos al proceso y mejora de daots, la salida de este cuaderno es un archivo de excel que tiene los datos estandarizados listos para el entrenamiento.
+- Series_Tiempo_2.ipynb: Este cuaderno tiene entrenamiento de modelos VAR,ExponentialSmoothin,ARMA y regresión lineal (Base line)Finalmente, se llevan a cabo dos modelos de regresión lineal con y sin ventanas deslizantes para crear el modelo baseline;estas revisiones son mes a mes, se consolidan los modelos usando los meses de ventas y cantidades agrupadas por esa categoría de fecha, con sus conclusiones y revisiones de errores.
+
 Contacto: jv.chaparro@uniandes.edu.co, o.giraldor@uniandes.edu.co, da.alfonso2@uniandes.edu.co,am.martinezc123@unaindes.edu.co
