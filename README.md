@@ -15,6 +15,7 @@ Comercial Quimica <br>
 └── Mockup DashBoard CQ.png<br>
 └── Series_Tiempo_1.ipynb<br>
 └── Series_Tiempo_2.ipynb<br>
+└── Diagrama de flujo Procesamiento.pdf<br>
 └── Archivos<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── base_ventas.xlsx (No incluido, Material Sensible,Disponible en el enlace adjunto) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── COMPRAS 2023 Dashboard.xlsm (No incluido, Material Sensible,Disponible en el enlace adjunto)<br>
