@@ -11,7 +11,10 @@ Comercial Quimica <br>
 ├── EDA_proyecto_Comercial_Quimica.ipynb<br>
 ├── Primera Entrega Proyecto Comercial Química.pdf<br>
 ├── Segunda Entrega Proyecto Comercial Química.pdf<br>
+└── Proyecto Dashboard.pdf<br>
 └── Mockup DashBoard CQ.png<br>
+└── Series_Tiempo_1.ipynb<br>
+└── Series_Tiempo_2.ipynb<br>
 └── Archivos<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── base_ventas.xlsx (No incluido, Material Sensible,Disponible en el enlace adjunto) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── COMPRAS 2023 Dashboard.xlsm (No incluido, Material Sensible,Disponible en el enlace adjunto)<br>
@@ -21,6 +24,7 @@ Comercial Quimica <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── DatosCQ.xlsx (No incluido, Material Sensible,Disponible en el enlace adjunto)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── INFORMACION INVENTARIO Y VENTAS 22-09-2023.xlsx (No incluido, Material Sensible,Disponible en el enlace adjunto)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── INVENTARIO (CODIGO DE PRODCUTOS).xlsx (No incluido, Material Sensible,Disponible en el enlace adjunto)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── arima.csv (No incluido, Material Sensible,Disponible en el enlace adjunto)<br>
 
 Los archivos con extension .pdf contienen la interpretacion del proyecto asi:
 - Primera Entrega Proyecto Comercial Química: Contiene el desarrollo del taller, como se indicó en bloque Neon, asi como la interpretación de datos de este Notebook.
@@ -41,8 +45,12 @@ __NOTA__: Solo el docente del curso tiene acceso a estos archivos, guardelos en 
 
 # Segunda Entrega:
 El archivo Segunda Entrega Proyecto Comercial Química.pdf tiene toda la informacion requerida para la entrega 2 de este proyecto
+Se incluye una muestra del dashboard construido en la etapa perliminar con el acceso a datos necesario para demostrar un demo en formato PDF 
 Los archivos agregados en esta entrega se dividen en dos partes, el procesamiento y los entrenamientos del modelo, los cuadernos se listan a continuación:
 - Procesamiento.ipnyb: Este cuaderno tiene el procesamiento de los datos del archivo, es decir es la entrada de los archivos al proceso y mejora de daots, la salida de este cuaderno es un archivo de excel que tiene los datos estandarizados listos para el entrenamiento.
+- Series_Tiempo_1.ipynb: Este cuaderno tiene entrenamiento de modelos ARIMA,SARIMA,ARMA,XGBOOST y mas todos estos modelos son con aplicacion diaria, es decir que no se agrupa la informacion si no se usa la la informacion diaria. Al final se encuentran las descripciones de cada modelo y se usa el csv Arima para el proceso.
 - Series_Tiempo_2.ipynb: Este cuaderno tiene entrenamiento de modelos VAR,ExponentialSmoothin,ARMA y regresión lineal (Base line)Finalmente, se llevan a cabo dos modelos de regresión lineal con y sin ventanas deslizantes para crear el modelo baseline;estas revisiones son mes a mes, se consolidan los modelos usando los meses de ventas y cantidades agrupadas por esa categoría de fecha, con sus conclusiones y revisiones de errores.
+
+Los modelos anteriormente evaluados suman 11, dentro de los dos cuadernos; cada modelo tiene una conclusión.
 
 Contacto: jv.chaparro@uniandes.edu.co, o.giraldor@uniandes.edu.co, da.alfonso2@uniandes.edu.co,am.martinezc123@unaindes.edu.co
