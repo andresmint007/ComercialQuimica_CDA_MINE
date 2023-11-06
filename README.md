@@ -44,7 +44,7 @@ Los archivos se pueden descargar en: https://uniandes-my.sharepoint.com/:f:/g/pe
 __NOTA__: Solo el docente del curso tiene acceso a estos archivos, guardelos en la carpeta Archivos una vez clone o descargue el Repositorio.
 
 # Segunda Entrega:
-El archivo Segunda Entrega Proyecto Comercial Química.pdf tiene toda la informacion requerida para la entrega 2 de este proyecto
+El archivo Segunda Entrega Proyecto Comercial Química.pdf tiene toda la informacion requerida para la entrega 2 de este proyecto, da inicio desde el apendice 8, ahi encuentran toda la información de esta entrega
 Se incluye una muestra del dashboard construido en la etapa preliminar con el acceso a datos necesarios para demostrar un demo en formato PDF 
 Los archivos agregados en esta entrega se dividen en dos partes, el procesamiento y los entrenamientos del modelo, los cuadernos se listan a continuación:
 - Procesamiento.ipnyb: Este cuaderno tiene el procesamiento de los datos del archivo, es decir es la entrada de los archivos al proceso y mejora de datos, la salida de este cuaderno es un archivo de excel que tiene los datos estandarizados listos para el entrenamiento.
