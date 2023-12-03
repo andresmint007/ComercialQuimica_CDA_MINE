@@ -11,6 +11,7 @@ Comercial Quimica <br>
 ├── EDA_proyecto_Comercial_Quimica.ipynb<br>
 ├── Primera Entrega Proyecto Comercial Química.pdf<br>
 ├── Segunda Entrega Proyecto Comercial Química.pdf<br>
+├── Tercera Entrega Proyecto Comercial Química.pdf<br>
 └── Proyecto Dashboard.pdf<br>
 └── Mockup DashBoard CQ.png<br>
 └── Series_Tiempo_1.ipynb<br>
@@ -26,6 +27,12 @@ Comercial Quimica <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── INFORMACION INVENTARIO Y VENTAS 22-09-2023.xlsx (No incluido, Material Sensible,Disponible en el enlace adjunto)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── INVENTARIO (CODIGO DE PRODCUTOS).xlsx (No incluido, Material Sensible,Disponible en el enlace adjunto)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── arima.csv (No incluido, Material Sensible,Disponible en el enlace adjunto)<br>
+└── Transformación de archivos<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── form.py<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── funcion_dashboard.py<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── LogoComercial.png<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── dax.py<br>
+
 
 Los archivos con extension .pdf contienen la interpretacion del proyecto asi:
 - Primera Entrega Proyecto Comercial Química: Contiene el desarrollo del taller, como se indicó en bloque Neon, asi como la interpretación de datos de este Notebook.
@@ -53,5 +60,25 @@ Los archivos agregados en esta entrega se dividen en dos partes, el procesamient
 - Series_Tiempo_2.ipynb: Este cuaderno tiene entrenamiento de modelos VAR, ExponentialSmoothin, ARMA y regresión lineal (Base line) Finalmente, se llevan a cabo dos modelos de regresión lineal con y sin ventanas deslizantes para crear el modelo baseline; estas revisiones son mes a mes, se consolidan los modelos usando los meses de ventas y cantidades agrupadas por esa categoría de fecha, con sus conclusiones y revisiones de errores.
 
 Los modelos anteriormente evaluados suman 11, dentro de los dos cuadernos; cada modelo tiene una conclusión.
+
+# Tercera Entrega:
+
+A continuación se listan los archivos y entregables relacionados con la última entrega del proyecto:
+
+Sobre el documento se encuentra los siguientes apartados:
+- Construcción de productos de datos: Estructura del dashboard con información sobre bodegas, proveedores, país de importación, evolución mensual, ventas, cantidades, precio promedio e índice de rotación.
+- Despliegue de la solución de la manera local: 
+- Despliegue de la solución en un proveedor de nube: Detalles del flujo de trabajo desde Dataiku hasta Power BI, explicando la integración con Google Cloud Platform, el diagrama de arquitectura se detalla el flujo de datos y la solución ofrecida con GCP para entregar el Power BI.
+- Retroalimentación por parte de la organización: Descripción detallada de las interacciones clave con el cliente, desde el establecimiento del canal de comunicación hasta la entrega final.
+- Conclusiones del proyecto: Resumen de las etapas del proyecto, incluyendo la identificación de un error en el modelo, ajustes sugeridos y la conclusión del proyecto el 24 de noviembre.
+
+Adicional se cuentan con los siguientes archivos indispensables para la solución:
+- Arquitectura.jpg: Arquitectura sobre draw.io donde se puede visualizar el flujo de conexión de los agentes externos con el proveedor de nube.
+- Tutorial Integracion Google Cloud Plataform.pdf: Sustento del despliegue en  la nube de la solución y paso a paso de la integración para la organización del Dashboard
+- Dashboard.pbix: Los datos sensibles los encontrará en el siguiente link donde únicamente tendrá acceso el docente, es el link de los archivos de la parte superior del dashboard.
+
+Transformación de archivos (carpeta):
+- Funciones DAX con Power BI (dax.py)
+- Scripts y formulario de transformación de datos: Exporta un archivo de Excel adecuado para la toma de datos desde el Power BI.(Todos los archivos de la carpeta excepto dax.py)
 
 Contacto: jv.chaparro@uniandes.edu.co, o.giraldor@uniandes.edu.co, da.alfonso2@uniandes.edu.co,am.martinezc123@unaindes.edu.co
